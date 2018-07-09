@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Calculator2</title>
+<style>
+#main{
+	border:3px solid black;
+	width:15%;       
+	color:#06425C;
+	border-spacing: 0;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 6px 6px; 
+display:inline-block;
+}
+
+
+
+
+.num {
+	background: #CDBB79;
+border:1px solid:black;
+padding:1px 1px;
+margin:1px 1px;
+height:30px;
+width:30px;
+display:inline-block;
+text-align:center;
+}
+.btnClass{
+	background: #f0f0f0;
+border:1px solid:black;
+padding:1px 1px;
+margin-left:1px;
+margin-top:1px;
+height:30px;
+width:35px;
+
+}
+.btnClass1{
+	background: #f0f0f0;
+border:1px solid:black;
+padding:1px 1px;
+margin:1px 1px;
+height:30px;
+width:47%;
+
+}
+#displayWind{
+	border:2px solid black;
+	  height:25px;
+	  width:15%;
+}
+</style>
+<script src="js/newCal.js"></script>
+</head>
+<body>
+
+<h1>Calcuator</h1>
+<div id="displayWind">
+</div>
+<div id="main">
+	<span class="num" id="num0">1</span>
+	<span class="num" id="num1">2</span>
+	<span class="num" id="num2">3</span>
+	<span class="num" id="num3">4</span>
+	<button id="btnPlus" type="button" class="btnClass" >+</button>			
+	<span class="num" id="num4">5</span>
+	<span class="num" id="num5">6</span>
+	<span class="num" id="num6">7</span>
+	<span class="num" id="num7">8</span>
+<button id="btnSubtract" type="button" class="btnClass" >-</button>
+	<span class="num" id="num8">9</span>
+	<span class="num" id="num9">0</span>
+<span class="num" id="num10">.</span>
+
+<button id="btnMultiply" type="button" class="btnClass" >*</button>
+
+
+<button id="btnDivision" type="button" class="btnClass">/</button>
+<button id="btnClear" type="button" class="btnClass1">Clear</button>
+<button id="btnAnswer" type="button" class="btnClass1" >=</button></div>
+</body>
+</html>

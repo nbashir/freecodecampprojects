@@ -1,0 +1,80 @@
+.body{
+
+
+background-color:#f0f0f0;
+}
+
+
+#main{
+border:10px solid black;
+color:#06425C;
+border-spacing: 0;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px; 
+margin:auto;
+display:inline-block;
+height:220px;
+width:21.5%;
+box-sizing: border-box;
+}
+
+#displayWind{
+border:15px solid black;
+height:60px;
+width:19%;
+border-spacing: 0;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px; 
+background-color:#f0f0ff;
+font-face:bold;
+font-family:sans;
+font-size:175%;
+padding:5px 2px;
+overflow-wrap: break-word;
+}
+
+
+.num {
+background: #CDBB79;
+border:3px solid black;
+padding:1px 1px 1px 1px;
+margin:1px 1px;
+height:40px;
+width:41px;
+display:inline-block;
+text-align:center;
+font-face:bold;
+font-family:sans;
+font-size:125%;
+}
+.btnClass{
+background: #555;
+color:white;
+border:3px solid black;
+padding:1px 1px;
+margin:1px 1px;
+height:40px;
+width:38px;
+display:inline-block;
+text-align:center;
+font-face:bold;
+font-family:sans;
+font-size:125%;
+}
+.btnClass1{
+background: #555;
+border:3px solid black;
+padding:1px 1px;
+margin:1px 1px;
+height:40px;
+width:75px;
+color:white;
+display:inline-block;
+text-align:center;
+font-face:bold;
+font-family:sans;
+font-size:125%;
+
+}
+
+
