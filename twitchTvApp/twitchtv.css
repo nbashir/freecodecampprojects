@@ -1,0 +1,41 @@
+h1{
+color:#666eff;
+fond-size:150%;
+text-align:center;
+border:solid 20px rgba(0, 0, 0, 0.14);
+background-color:rgba(211, 211, 211, 0.51);
+margin:2% 2%;
+padding:2% 2%;
+display:block;
+}
+body{
+    background-color:lightblue;
+}
+div{
+border:solid 2px rgba(0, 0, 0, 0.14);
+  margin:2px 2px;
+    fond-size:130px;
+text-align:center;
+font-family:sans-serif;
+font-weight:bold;
+    background-color:lightgray;
+    padding:2% 2%;
+    width:100:%;
+text-align:center;
+display:blcok;
+
+}
+div a{
+text-decoration:none;
+
+
+}
+span{
+	margin:2% 2%;
+	padding:2% 2%;
+	height:25px;
+	font-size:110%;
+text-align:right;
+font-family:sans-serif;
+font-weight:bold;
+}

@@ -1,0 +1,105 @@
+div#body{
+  margin:auto;
+   box-sizing: border-box;
+   padding:40px 40px 40px 40px;
+   background-color:rgba(158, 158, 158, 0.41);
+}
+div#navbar{
+  background-color:rgba(156, 39, 176, 0.4);  
+   height:50px;
+     margin:auto;
+    box-sizing:border-box;
+    vertical-align: bottom;
+    text-align:right;
+   
+    }
+div#about{
+   background-color:rgba(158, 158, 158, 0.41);
+   text-align:center;
+
+
+}
+div#contactblock{
+   display:inline-block;
+    background-color:rgba(158, 158, 158, 0.88);
+    text-align:left;
+  }
+div#navbarlink{
+  display:inline-block;
+  align: left;
+}
+div#aboutme{
+  display:inline-block;
+  text-align:center;
+}
+div#contact{
+    margin:auto;
+    box-sizing:border-box;
+    vertical-align: top;
+    text-align:center;
+    background-color:#9E9E9E;
+}
+div#form{
+  display:inline-block;
+  width:100%;
+  margin:auto;
+   box-sizing: border-box;
+   padding:20px 10px 20px 20px;
+   vertical-align: top;
+ background-color:rgba(158, 158, 158, 0.57);
+}
+div#socialmedia{
+    margin:auto;
+    box-sizing:border-box;
+    vertical-align: top;
+    text-align:right;
+    background-color:rgba(156, 39, 176, 0.42);
+   padding:5px 25px 5px 25px;
+}
+
+#imageheader{
+    margin:auto;
+    box-sizing:border-box;
+    vertical-align: top;
+    text-align:center;
+    background-color:#9E9E9E;
+}
+
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+input[type=text],input[type=number], textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.gallery img {
+    border: 10px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+}
+
+
+
+#div images{
+  display:inline-block;
+}

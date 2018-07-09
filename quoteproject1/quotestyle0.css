@@ -1,0 +1,16 @@
+div#input{
+  border:1px solid purple;
+}
+div#header{
+  border:1px solid purple;  
+}
+div#form{
+  border:1px dashed #E91E63;
+}
+div#quote{
+  border:1px solid #2196F3;
+   
+   }
+div#body{
+  border:1px solid black;
+}

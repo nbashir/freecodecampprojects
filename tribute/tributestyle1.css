@@ -1,0 +1,68 @@
+h1{
+     font:6em serif;
+     text-align:center;
+      margin:1rem;
+}
+h2{
+    font-size:4em;
+    text-align:center; 
+    font-style:oblique;
+     margin:1rem;
+  }
+figure{
+    text-align:center;
+     }
+img{
+   height:500px; 
+   
+}
+figcaption{
+    margin:1rem;
+}
+h3{
+    font:2em sans-serif;
+    padding:0em 5.5em;
+}
+ul{
+  font:1.25em "Times New Roman", Times, serif; 
+  width:50%;
+  padding:0em 16em;
+}
+p {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding:1em 10em;
+  }
+ blockquote {
+  min-height: 2em;
+  padding   : .5em 4em;
+  font      : 1.8em sans-serif;
+  position  : relative;
+  background-color: light gray;
+}
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : .5rem;
+  font    : 3rem/100% Georgia, "Times New Roman", Times, serif;
+}
+blockquote::before {
+  content: '“';
+  top    : 0.5rem;
+  left   : 6rem;
+}
+blockquote::after {
+  content: '”';
+  bottom : 0.5rem;
+  right  : 6rem;
+}
+blockquote i {
+  display   : block;
+  font-size : 0.5em;
+  margin-top: .5rem;
+  text-style: italic;
+  text-align: righ;
+}
+a{
+    margin:1rem;
+}

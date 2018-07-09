@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quote Machine</title>
+        <!--
+        <link href=quotestyle0.css rel=stylesheet>
+        -->
+        <link href=quotestyle1.css rel=stylesheet>
+    </head>
+    <body>
+        <div id="body">
+            <div id=header>
+                <h1>Quote Machine</h1>
+            </div>
+          <!--
+            <div id="quote">Quote will appear hear </div>
+            -->
+            <!-- https://twitter.com/intent/tweet?text=She%20made%20me%20laugh.%20I%20will%20miss%20her.%20Baba%20Wawa -->
+            <div id="quote">Quote will appear hear </div> 
+            <form action="https://twitter.com/intent/tweet" method="get">
+               
+                <div id="input">
+                    <input name="text" id="quote1" type="hidden" value="">
+                </div>
+                <button id=getquotebtn type=button>Get A New Quote</button>
+                <button id=twitterbtn type=submit>tweet</button>
+            </form>
+        </div>
+        <script src=quotescript.js></script>
+    </body>
+</html>
+<!--
+https://twitter.com/intent/tweet?text=She%20made%20me%20laugh.%20I%20will%20miss%20her.%20Baba%20Wawa
+https://twitter.com/intent/tweet?quote=She+made+me+laugh+I+will+miss+her.Baba+Wawa
+-->

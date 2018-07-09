@@ -1,0 +1,38 @@
+div#navbar{
+  border:1px solid purple;  
+
+}
+div#about{
+  border:1px dashed black;
+}
+div#images{
+  border:1px solid red;
+}
+div#contactblock{
+  border:1px dashed green;
+   }
+div#socialmedia{
+  border:1px solid yellow;
+}
+div#contactform{
+  border:1px solid pink;
+ }
+div#formbox{
+  border: 1px solid purple;
+ }
+ div#contact{
+   border:1px solid red;
+ }
+ div#socialmediadisplay{
+   border:1px solid #3F51B5;
+ }
+  div#navbarbutton{
+   border:1px solid red;
+ }
+ div#portfolioheader{
+   border:1px solid black;
+ }
+ button{
+   border:10px solid black;
+ }
+ 

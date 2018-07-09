@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pomodoro Clock</title>
+<style>
+#pomodoroBox{
+	border:2px solid black;
+	width:355px;
+	height:100px;
+	margin-top:50px;
+background-color:#f0f0ff;
+font-face:bold;
+font-family:sans;
+font-size:250%;
+padding:40px 40px;
+	
+text-align:center;
+display:inline-block;
+}
+#stopBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+}
+
+#startBtn {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+}
+
+#pomodoroBox{
+	border:2px solid black;
+	width:150px;
+	height:150px;
+	margin:5px 5px;
+background-color:#f0f5ff;
+font-face:bold;
+font-family:sans;
+font-size:250%;
+padding:40px 40px;
+		-webkit-border-radius:75px 75px 75px 75px;
+	border-radius: 120px 120px 120px 120px;
+text-align:center;
+display:inline-block;
+}
+.btnBlue {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.btnGreen {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sessionClass{
+	padding:1px 1px;
+	text-align:center;
+	font-size:20px;
+	margin-right:5px;
+	font-face:bold;
+	font-family:sans;
+
+}
+.breakClass{
+	padding:1px 1px;
+	text-align:center;
+	font-size:20px;
+	margin-left:15px;
+	font-face:bold;
+	font-family:sans;
+
+}
+#sessionLengthId{
+	font-face:bold;
+font-size:25px;
+margin-right:1px;
+
+}
+#incBreak{
+	margin-left:70px;
+}
+
+#body{
+	background-color:#f2f2f2;
+}
+</style>
+
+<script src="js/pomodoro3.js"></script>
+</head>
+<body id="body">
+<div id="main">
+<h1>Pomodoro Clock</h1>
+
+<div> 
+	<span class="sessionClass">Session Time</span><span class="sessionClass" id="sessionLengthId"></span>
+<span class="breakClass">Break Time</span><span class="breakClass" id="breakLengthId"></span><br>
+	<button type="button" id="incBtn" class="btnBlue">+</btn>
+	
+	<button type="button" id="decBtn" class="btnGreen">-</btn>
+	
+	
+	<button type="button" id="incBreak" class="btnBlue">+</btn>
+	<button type="button" id="decBreak" class="btnGreen">-</btn>
+	</div>
+</div>
+
+<div id="pomodoroBox"><span id="displaySessionId">Session</span><br>
+	<span id="displayTimeId"></span></div><br>
+<button type="button" id="startBtn">Start Pomodoro Clock</button><br>
+<button type="button" id="stopBtn">Stop Pomodoro Clock</button>
+</div>
+</body>
+</html>

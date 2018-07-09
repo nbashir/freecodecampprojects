@@ -1,0 +1,37 @@
+body{
+    border: 1px solid gray;
+}
+h1{
+    border:1px solid red;
+}
+h2{
+    border:1px dashed green;
+    }
+figure{
+    border:1px solid black;
+}
+
+img{
+    border:1px dashed yellow;
+    }
+figcaption{
+    border: 1px solid orange;
+    }
+h3{
+     border:1px dashed pink;
+} 
+ul{
+    border :1px solid black;
+}
+p{
+    border :1px dashed red;
+}
+blockquotes{
+    border:1px solid green;
+}
+i{
+  border :1px dashed red;  
+}
+a{
+    border: 1px double dashed orange;
+}

@@ -1,0 +1,72 @@
+ssh secure shell
+key-based authentication
+encryption problem
+a - z
+a=1 b=2 z=26
+hello
+rot13 code
+rot13 code has key add 13 to letter position
+shared-key system
+public key cryptography
+public key is only one half of complete key
+the other half is called private key
+ssh-keygen
+ls -laR ~/.ssh
+
+ls -ld ~/.ssh
+	
+zeeshan ali	4:53 PM
+https://plus.google.com/b/100536814284495906223/events/cs2a055en2c7dj3n5fpkpqqsbcg
+	
+Pakistan Programmer Club	4:54 PM
+"+y
+	
+zeeshan ali	4:56 PM
+https://plus.google.com/b/100536814284495906223/events/cs2a055en2c7dj3n5fpkpqqsbcg
+	
+Pakistan Programmer Club	4:58 PM
+sudo apt-get install dkms
+taya ahmed left group chat.
+taya ahmed joined group chat.
+	
+Pakistan Programmer Club	5:04 PM
+mkdir /mount/cdrom
+mkdir /media/cdrom
+sudo mount -t iso9660 -o ro /dev/cdrom /media/cdrom
+taya ahmed left group chat.
+	
+Pakistan Programmer Club	5:20 PM
+cd /media/cdrom/
+sudo ./VBoxLinuxAdditions.run
+sudo shutdown -r now
+vmwinshare c:\vm\vmwinshare
+mkdir /mnt/vmwinshare
+sudo mount -t vboxsf vmwinshare /mnt/vmwinshare
+cd /mnt/vmwinshare
+cp ~/.ssh/id_rsa.pub .
+	
+Pakistan Programmer Club	5:55 PM
+ssh -p20051 action@use1.nitrousbox.com
+	
+Aamir Naveed	6:03 PM
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC76dI5qI4VIHPk9TR3QlUxMMEBs/PhsT1ZTBlEc24qEWBHtXak338O2hbBKnJeCBBZiz+Pk0fZm5o5CKBwCcAx+mqgEJoop1BHrw2juJb/lUgdLLkpafCwF1e3DCj8GE99CxBodK1IsnlxYKmBgc5rx2HowvxHZXDrLH4t/svyQSArCCj2vGT8zgsgP5030f7EpAi7sS6sIf4QvdD26BqF5+hmIX5Sr1Epr507oTBFbQS6nBTwgUZGNyO/MApQa84VOcafuFsTsY/PvYZ36pcrdXk38AFFEb9XVjgUsptE/dtVBQgtcZv9yuNDLzFnyB2wn7EU4esiM2PLZ3OwN7yd aamir@vmserver
+	
+Pakistan Programmer Club	6:08 PM
+scp -r -P20051 action@use1.nitrousbox.com:/home/action/ppctty
+scp -r -P20051 action@use1.nitrousbox.com:/home/action/ppctty .
+runtty.bat yourservername
+
+Pakistan Programmer Club	9:16 PM
+local/bin/tmuxmakeremote.sh
+	
+Aamir Naveed	9:17 PM
+local/bin/tmuxmakeremote.sh
+	
+09/12/14
+
+Pakistan Programmer Club	10:05 PM
+passwd
+man passwd
+ctrl-b and page up
+
+

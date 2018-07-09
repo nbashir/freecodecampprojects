@@ -1,0 +1,64 @@
+div#body {
+    margin: 10px 10px 10px 10px;
+    padding: 10px:10px 10px 10px;
+    border: solid black;
+}
+
+div#header {
+    text-align: center;
+}
+
+#getquotebtn {
+    padding: 1em;
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#twitterbtn {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div#form {
+    width: 100%;
+    background: #2196F3 margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+div#input {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+div#quote {
+    border: solid black;
+    margin: auto;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}

@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    padding: 1em 1em;
+    width: 600px;
+    background-color: lightgray;
+}
+
+.wTitle {
+    background-color: lightgray;
+    margin: auto;
+    padding: .5em 1em .5em 1em;
+}
+
+#titleHeading {
+    font-weight: bold;
+    height: 30px;
+    text-decoration: underline black;
+    margin: auto;
+}
